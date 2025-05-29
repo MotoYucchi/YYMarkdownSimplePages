@@ -38,10 +38,42 @@
     <script src="script.js"></script>
 </body>
 
-<footer class="footer">
-    <div class="footer-content">
-        <p>&copy; 2025 MotoYucchi All Rights Reserved.</p>
-        <a href="#contact" class="footer-link">Contact</a>
+<!-- フッター全体 -->
+  <footer style="position:fixed; bottom:0; left:0; width:100%; background:#f0f0f0; box-shadow:0 -1px 5px rgba(0,0,0,0.1);">
+
+    <!-- 上部：入力フォームとリンク -->
+    <div style="display:flex; justify-content:center; align-items:center; padding:10px; border-bottom:1px solid #ccc;">
+      <input
+        type="text"
+        id="anchorInput"
+        value=""
+        style="padding:6px 10px; font-size:14px; border:1px solid #ccc; border-radius:4px; margin-right:10px;"
+      />
+      <a
+        id="dynamicLink"
+        href="#home/000"
+        style="padding:6px 12px; background:#007BFF; color:#fff; text-decoration:none; border-radius:4px; font-size:14px;"
+      >
+        リンクへ飛ぶ
+      </a>
     </div>
-</footer>
+
+    <!-- 下部：コピーライト・Contact -->
+    <div style="text-align:center; padding:8px 10px; font-size:14px; color:#333;">
+      <p style="margin:4px 0;">&copy; 2025 MotoYucchi All Rights Reserved.</p>
+      <a href="#contact" style="color:#007BFF; text-decoration:none;">Contact</a>
+    </div>
+
+  </footer>
+
+  <!-- スクリプト -->
+  <script>
+    const input = document.getElementById('anchorInput');
+    const link = document.getElementById('dynamicLink');
+
+    input.addEventListener('input', () => {
+      const newId = input.value.trim();
+      link.href = "#home/" + newId;
+    });
+  </script>
 </html>
