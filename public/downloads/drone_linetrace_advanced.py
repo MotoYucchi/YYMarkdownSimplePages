@@ -383,7 +383,7 @@ try:
             up()
             command_text = "Up"
         # cキーで下降
-        elif key == ord('f'):
+        elif key == ord('c'):
             down()
             command_text = "Down"
         # qキーで左回りに回転
