@@ -125,11 +125,6 @@ COLOR_PRESETS = {
         's_min': 100, 's_max': 255,
         'v_min': 100, 'v_max': 255
     },
-    'red_alt': {  # 赤の別範囲（HSVで赤は0付近と170付近に分かれる）
-        'h_min': 170, 'h_max': 179,
-        's_min': 100, 's_max': 255,
-        'v_min': 100, 'v_max': 255
-    },
     'blue': {
         'h_min': 100, 'h_max': 130,
         's_min': 100, 's_max': 255,
@@ -139,11 +134,6 @@ COLOR_PRESETS = {
         'h_min': 20, 'h_max': 30,
         's_min': 100, 's_max': 255,
         'v_min': 100, 'v_max': 255
-    },
-    'nb-black': {
-        'h_min': 0, 'h_max': 179,
-        's_min': 0, 's_max': 255,
-        'v_min': 0, 'v_max': 50
     },
     'black': {
         'h_min': 12, 'h_max': 40,
