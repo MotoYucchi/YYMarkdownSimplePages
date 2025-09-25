@@ -17,4 +17,4 @@
 # 🗃️配布
 
 
-0## <a href="https://github.com/MotoYucchi/YYMarkdownSimplePages/blob/main/public/donloads/drone_linetrace_advanced.py">Tello ライントレースデータ '.py'で配布</a><br>
+## <a href="https://github.com/MotoYucchi/YYMarkdownSimplePages/blob/main/public/downloads/drone_linetrace_advanced.py">Tello ライントレースデータ '.py'で配布</a><br>
