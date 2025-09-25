@@ -18,3 +18,15 @@
 
 
 ## <a href="https://github.com/MotoYucchi/YYMarkdownSimplePages/blob/main/public/downloads/drone_linetrace_advanced.py">Tello ライントレースデータ '.py'で配布</a><br>
+### 基本操作
+- 離陸: Tキー
+- 着陸: Lキー
+- 追尾の有効: 1キー
+- 追尾の無効: 2キー
+
+### 色プリセットの変更操作
+- Red: 5キー
+- Blue: 6キー
+- Yellow: 7キー
+- Black: 8キー
+####  ※離陸前に色プリセットを変更しておくことを強く推奨します。
