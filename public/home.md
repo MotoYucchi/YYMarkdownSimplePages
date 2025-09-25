@@ -17,7 +17,7 @@
 # 🗃️配布
 
 
-## <a href="https://github.com/MotoYucchi/YYMarkdownSimplePages/blob/main/public/downloads/drone_linetrace_advanced.py">Tello ライントレースデータ '.py'で配布</a><br>
+## <a href="https://github.com/MotoYucchi/YYMarkdownSimplePages/blob/main/public/downloads/drone_linetrace_advanced.py">Tello ライントレースデータ '.py'で配布(ここをクリックするとページに飛びます。)</a><br>
 ### 基本操作
 - 離陸: Tキー
 - 着陸: Lキー
