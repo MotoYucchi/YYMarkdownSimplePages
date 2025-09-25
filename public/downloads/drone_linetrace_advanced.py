@@ -422,9 +422,6 @@ try:
         elif key == ord('8'):  # 黒色プリセット
             apply_color_preset('black')
             command_text = "Black preset"
-        elif key == ord('9'):  # 赤色代替プリセット（HSVの高い値側）
-            apply_color_preset('red_alt')
-            command_text = "Red alt preset"
             
         # (Z)5秒おきに'command'を送って、死活チェックを通す
         current_time = time.time()  # 現在時刻を取得
@@ -446,5 +443,4 @@ print("キー '5': 赤色プリセット")
 print("キー '6': 青色プリセット")
 print("キー '7': 黄色プリセット")
 print("キー '8': 黒色プリセット")
-print("キー '9': 赤色代替プリセット（HSV高値側）")
 print("各プリセット後、トラックバーで微調整可能")
